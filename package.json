@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
+    "axios": "^1.10.0",
     "clsx": "^2.1.1",
     "daisyui": "^5.0.43",
     "firebase": "^11.9.1",
