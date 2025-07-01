@@ -1,8 +1,14 @@
+// /** @type {import('next').NextConfig} */
+// const nextConfig = {
+//   experimental: {
+//     turbopack: false, // ❌ Disable Turbopack
+//   },
+// };
+
+// module.exports = nextConfig;
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    turbopack: false, // ❌ Disable Turbopack
-  },
+  // No need for 'experimental' unless you're using valid options
 };
 
-module.exports = nextConfig;
+export default nextConfig;
